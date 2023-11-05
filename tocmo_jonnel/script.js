@@ -1,5 +1,5 @@
 
-function buttonToggle () {
+function buttonToggle() {
 
     let nameInput = document.querySelector("#name").value.trim();
     let commentBox = document.querySelector("#comment").value.trim();
@@ -22,8 +22,8 @@ function addComment() {
     comment.textContent = `${onInputName}: ${onInputMessage}`;
 
     commentBox.appendChild(comment);
-
     commentSection.appendChild(commentBox);
+
     document.querySelector('#name').value = '';
     document.querySelector('#comment').value = '';
 }
