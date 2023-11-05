@@ -8,53 +8,53 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
+.parent-container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
 }
 
-.container__box {
+.child-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 h1 {
-    background-color: bisque;
+    background-color: #85000F;
+    color: #C5B9B1;
     padding: 15px;
     border-radius: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
-   
 }
 
-.interest_hobbies {
+.interest-hobbies {
     line-height: 40px;
     color: #31383F;
 }
 
-.interest_hobbies p {
+.interest-hobbies p {
     text-indent: 20px;
-    
 }
 
-.interest_hobbies li, .myworks li{
+.interest-hobbies li,
+.my-works li {
     list-style-type: none;
     font-style: italic;
     font-weight: bold;
-    
 }
 
-.myworks a{
+.my-works a {
     padding: 5px 0;
     color: #31383F;
     text-decoration: none;
 }
 
-.myworks a:hover {
+.my-works a:hover {
     color: #2A8DCE;
 }
 
@@ -70,20 +70,20 @@ h1, h2 {
     padding: 15px;
 }
 
-.gallery__img{
+.gallery-img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.gallery__img img {
+.gallery-img img {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
 
-.gallery__img img:hover {
+.gallery-img img:hover {
     transform: scale(1.1);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
 }
@@ -92,7 +92,7 @@ h1, h2 {
     list-style-type: none;
 }
 
-.goals .message-form {
+.message-form {
     margin: 50px 0;
     padding: 20px 0;
 }
@@ -101,13 +101,12 @@ h1, h2 {
     display: flex;
     width: 100%;
     justify-content: center;
-    
 }
 
 .message-form {
     width: 50%;
     min-width: 400px;
-    background-image: url("bg.jpg");
+    background-color: #85000F;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +134,6 @@ h1, h2 {
     width: 246px;
     padding: 5px;
     margin-bottom: 5px;
-    
 }
 
 #message, #comment_button{
