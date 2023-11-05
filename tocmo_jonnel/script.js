@@ -13,24 +13,20 @@ function buttonToggle () {
 }
 
 function addComment() {
-    let nameInput = document.querySelector('#name').value.trim();
-    let messageInput = document.querySelector('#message').value.trim();
+    let onInputName = document.querySelector('#name').value;
+    let onInputMessage = document.querySelector('#comment').value;
     let commentSection = document.querySelector('.comment-section');
+    const commentBox = document.createElement('span');
+    const comment = document.createElement('p');
 
-    if (nameInput.length > 0 && messageInput.length > 0) {
-        const commentBox = document.createElement('div');
-        commentBox.className = 'comment-box';
+    comment.textContent = `${onInputName}: ${onInputMessage}`;
 
-        const comment = document.createElement('p');
-        comment.className = 'comment-text';
-        comment.textContent = `${nameInput}: ${messageInput}`;
+    commentBox.appendChild(comment);
 
-        commentBox.appendChild(comment);
-        commentSection.appendChild(commentBox);
-
-        document.querySelector('#name').value = '';
-        document.querySelector('#message').value = '';
-
-        document.querySelector('#comment_button').disabled = true;
-    }
+    commentSection.appendChild(commentBox);
+    document.querySelector('#name').value = '';
+    document.querySelector('#comment').value = '';
 }
+
+
+
