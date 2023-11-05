@@ -22,7 +22,7 @@ body {
 
 h1 {
     background-color: #85000F;
-    color: #C5B9B1;
+    color: white;
     padding: 15px;
     border-radius: 10px;
 }
@@ -90,6 +90,24 @@ h2 {
 
 .goals ul{
     list-style-type: none;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #C5B9B1;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.comment-section p{
+    display: inline-block;
+    margin: 5px;
+    background-color: #31383f;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .message-form {
