@@ -10,3 +10,14 @@ function onTextChange() {
         commentButton.disabled = true;
     }
 }
+
+function addComment() {
+    let onInputName = document.querySelector('#name').value;
+    let onInputMessage = document.querySelector('#message').value;
+    let commentSection = document.querySelector('.comments');
+    const comment = document.createElement('p');
+
+    comment.textContent = `${onInputName}: ${onInputMessage}`;
+
+    commentSection.appendChild(comment);
+}   
