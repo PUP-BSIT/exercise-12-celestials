@@ -1,10 +1,9 @@
-/* fix spacing */
-
 body {
     background-color: #F5F5DC; 
 }
 
-h1, h2 {
+h1, 
+h2 {
     text-align: center;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1)
 }
@@ -44,17 +43,19 @@ p {
     justify-content: space-between;
 }
 
-.interest-hobbies, .my-works {
+.interest-hobbies, 
+.my-works {
     background-color: #f3f3f3;
     padding: 20px;
     width: calc(50% - 30px);
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
-
 }
 
-.testimonials, .gallery, .my-goals {
+.testimonials, 
+.gallery, 
+.my-goals {
     background-color: #f3f3f3;
     text-align: center;
     padding: 10px;
