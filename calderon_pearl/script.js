@@ -1,3 +1,5 @@
+/* function onTextChange not working */
+
 function onTextChange() {
     let name = document.querySelector("#name").value;
     let comments = document.querySelector("#comments").value;
