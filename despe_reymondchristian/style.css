@@ -1,10 +1,10 @@
-body{
+body {
   font-family: Arial, sans-serif;
   background-color: whitesmoke;
   margin: 32px; 
 }
 
-h1{
+h1 {
   font-size: 40px; 
   text-align: center;
   margin-bottom: 16px;
@@ -13,7 +13,7 @@ h1{
   padding: 16px;
 }
 
-h2{
+h2 {
   font-size: 32px; 
   margin: 32px 0;
   text-align: center;
@@ -22,42 +22,42 @@ h2{
   padding: 16px;
 }
 
-li{
+li {
   font-size: 24px; 
   margin-bottom: 24px;
   margin-left: 80px; 
 }
 
-p{
+p {
   font-size: 20px; 
   margin-left: 80px; 
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   color: blue;
 }
 
-.fit-picture{
+.fit-picture {
   width: 150px;
   margin: 32px 0;
 }
 
-.message-form form{
+.message-form form {
   display: flex;
   flex-direction: column;
 }
 
-#name, #message{
+#name, #message {
   width: 500px;
 }
 
-#comment_button{
+#comment_button {
   width: 200px;
 }
 
