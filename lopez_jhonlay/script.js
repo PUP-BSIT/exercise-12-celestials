@@ -23,4 +23,7 @@ function addComment() {
     commentBox.appendChild(comment);
 
     commentSection.append(commentBox);
+
+    onInputName = '';
+    onInputMessage = '';
 }
