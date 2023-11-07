@@ -1,11 +1,9 @@
-/* fix spacing */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #840202;
 }
-
 
 div {
     margin: 20px;
@@ -23,7 +21,6 @@ h2 {
     color: #333333;
 }
 
-
 ul {
     list-style: none;
     padding: 0;
@@ -34,16 +31,13 @@ li {
     color: #800000; 
 }
 
-
 p {
     color: #666666;
 }
 
-
 ol {
     padding: 0;
 }
-
 
 a {
     color: #007bff; 
@@ -55,12 +49,13 @@ img {
     border-radius: 5px;
 }
 
-
-div:nth-child(3), div:nth-child(5) {
+div:nth-child(3), 
+div:nth-child(5) {
     background-color: #f8f9fa;
 }
 
-.text-box, .text-area {
+.text-box, 
+.text-area {
     width: 95%;
     padding: 10px;
     border: 1px solid #ccc;
