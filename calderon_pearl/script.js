@@ -3,7 +3,7 @@
 function onTextChange() {
     let name = document.querySelector("#name").value;
     let comments = document.querySelector("#comments").value;
-    let commentButton = document.querySelector("#comment-button");
+    let commentButton = document.querySelector("#comment_button");
 
     if (comments.length > 0 && name.length > 0) {
         commentButton.disabled = false;
@@ -29,4 +29,4 @@ function addComment(event) {
     document.querySelector('#comment_button').disabled = true;
 }
 
-document.querySelector('#comment-form').addEventListener('submit', addComment);
+document.querySelector('#comment_form').addEventListener('submit', addComment);
