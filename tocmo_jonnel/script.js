@@ -1,4 +1,3 @@
-
 function buttonToggle() {
 
     let nameInput = document.querySelector("#name").value.trim();
